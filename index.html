@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio JM</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+    
+    <script src="https://kit.fontawesome.com/50ead72691.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- BARRA DE NAVEGACION -->
+    <div>
+        <div class="container">
+            <div class="text-right lg-hidden">
+                <span onclick="toggleMenu()" class="icon-menu">
+                    <button class="button-menu">
+                        <img src="./img/menu 1.svg" alt="">
+                    </button>
+                </span>
+            </div>
+            <nav id="main-menu" class="hidden">
+                <ul>
+                	<li><a href="#Home" class="nav-link">Home</a></li>
+                	<li><a href="#Acerca" class="nav-link">Acerca de mi</a></li>
+                	<li><a href="#Habilidades" class="nav-link">Mis Habilidades</a></li>
+                	<li><a href="#Experiencia" class="nav-link">Experiencia</a></li>
+					<li><a href="#Portafolio" class="nav-link">Mi Portafolio</a></li>
+					<li><a href="#Contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- FOTO DE PERFIL -->
+    <div class="row header" id="Home" >
+        <div >
+            <img src="./img/firstvector.svg" class="vector1" alt="">
+        </div>
+        <div class="row container">
+            <div class="col-12">
+                <img src="./img/foto-por.jfif" class="image-person" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <!-- TITULO E ICONOS -->
+    <div class="container">
+        <h2>Hola, soy Jonathan</h2>
+    </div>
+        <div class="container">
+            <h1>Diseñador y <br> desarrollador web</h1>
+        </div>
+    <!-- ICONOS DEL TITULO -->
+    <div class="row">
+        <div class="container">
+            <div class="icons">
+                <img src="./img/cib_linkedin-in.svg" alt="">
+                <img src="./img/ant-design_instagram-filled.svg" alt="">
+                <img src="./img/ant-design_twitter-outlined.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- segundo vector -->
+    <div class="posvector">
+        <div class="row ">
+            <img src="./img/finalvector.svg"  class="vector2" alt="">
+        </div>
+    </div>
+    
+    
+    <!-- ACERCA DE MI  -->
+    <div class="container">
+        <div>
+            <h3 id="Acerca">
+                Acerca de mí
+            </h3>
+        </div>
+            <div class="container">
+            <div class="border-text">
+                <p>Mi nombre es Jonathan David Rodriguez Tejada, tengo 30 años y soy de la ciudad de Pasto-Nariño-Colombia, actualmente me desempeño como Contador Publico, Realizando asesorias, 
+                    capacitaciones, llevando contabilidades de entidades publicas y privadas, al día de hoy me encuentro estudiando ingenieria de sistemas en segundo semestre y desarrollando distintas habilidades para ser desarrollador Full Stack tomando clases en <b>ACADEMLO</b>.</p>
+            </div>
+            </div>
+    </div>
+    <!-- MIS HABILIDADES -->
+    <div class="container">
+        <div>
+            <h3 id="Habilidades">
+                Habilidades
+            </h3>
+         
+        </div> 
+            <div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <img src="./img/ant-design_mobile-filled.svg" class="icon-habilidades" alt="Mobil app design">
+                            <h6>HTML</h6>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <img src="./img/mdi_motion.svg" class="icon-habilidades" alt="Motion desing">
+                            <h6>CSS</h6>
+                            
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <img src="./img/mdi_material-design.svg" class="icon-habilidades" alt="Mobil app design">
+                            <h6>Desarrollo web</h6>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <img src="./img/incondesarrollador.svg" class="icon-habilidades" alt="Motion desing">
+                            <h6>JavaScript</h6>
+                            
+                        </div>
+                    </div>
+                </div>
+
+               
+         </div>
+    </div>
+
+    <!-- EXPERIENCIA -->
+    <div>
+        <div class="container">
+            <div>
+                <h3 id="Experiencia">
+                    Mi experiencia
+                </h3>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row col-12">
+                <div class=" border col-6">
+                    <p class="text-center"> 2021-2022 </p>
+                 </div>
+                
+                    <div class=" border col-6">
+                        <h6>Desarrollador FullStack</h6>
+                        <p class="text-left"> HTML, CSS, JavaScript</p>
+                 </div> 
+            </div>
+    
+            
+    
+        </div>
+    </div>
+
+    <!-- PORTAFOLIO -->
+    <div>
+        <div class="container">
+            <div>
+                <h3 id = "Portafolio">
+                    Portafolio
+                </h3>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 portfolio-img-container">
+                    <img class="portfolio-img"  src="./img/Group 47.jpg">
+                </div>
+                <div class="col-12 col-lg-4 portfolio-img-container">
+                    <img class="portfolio-img"  src="./img/Rectangle 53.jpg">
+                </div>
+                <div class="col-12 col-lg-4 portfolio-img-container">
+                    <img class="portfolio-img"  src="./img/Rectangle 65.jpg">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- CONTACTO -->
+    <div class="container">
+        <div>
+            <h3 id="Contacto">
+                Contacto
+            </h3>
+        </div> 
+            <div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card">
+                            <img src="./img/phone 3.svg" class="icon-contacto" alt="Mobil app design"> <br>
+                            <div> <h6>Numero de Celular</h6> <br>
+                                <h6>+57 317 426 3312</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <img src="./img/mail 3.svg" class="icon-contacto" alt="Motion desing">
+                            <div> <h6>Email</h6>  <br>
+                                <h6>t3rry2492@hotmail.com</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container foot">
+            <p>Hecho con ♥ en academlo</p>
+        </div>
+    </footer>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
